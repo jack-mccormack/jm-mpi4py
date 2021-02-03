@@ -1,2 +1,2 @@
-# trash,,,
-im going to delete this
+# mpi4py
+these scripts are mostly practice so far
