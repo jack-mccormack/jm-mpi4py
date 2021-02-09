@@ -4,7 +4,7 @@ MPI is a system that allows communication between processes in a distributed com
 # point-to-point communication
 this is when data passes directly from one process to another, along one of the following lines:
 ## scatter
-automatically splits an array of data between recipients, fails without a 1-to-1 ratio
+automatically splits an array of data between recipients; fails without a clean ratio of elements to recipients
 ## gather
 collects data from different processes into a list
 ## broadcast
