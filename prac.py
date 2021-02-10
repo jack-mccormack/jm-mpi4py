@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-
+very basic point to point
 """
 
 from mpi4py import MPI
