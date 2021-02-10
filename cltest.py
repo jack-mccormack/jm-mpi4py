@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-
+tests a filesystem
 """
 
 from mpi4py import MPI
