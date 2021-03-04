@@ -15,15 +15,8 @@ if rank == root:
 	data = [i for i in range(size)]
 else:
 	data = None
-"""
-scatters the data from root
-"""
 data = comm.scatter(data)
 print("process #" +str(rank) + ": " + str(data))
-
-"""
-gathers the data to root
-"""
 bucket = comm.gather(data)
 if rank == root:
 	print(bucket)

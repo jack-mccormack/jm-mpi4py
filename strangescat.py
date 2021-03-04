@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-scatter/gather improper use demo
+scatter/gather demo
 """
 
 from mpi4py import MPI
@@ -12,9 +12,6 @@ name = MPI.Get_processor_name()
 root = 0
 
 if rank == root:
-	"""
-	this can't be scattered properly
-	"""
 	data = [i for i in range(size - 2)]
 else:
 	data = None
