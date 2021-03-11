@@ -13,3 +13,6 @@ collects data from different processes into a list
 sends one piece of data to every process
 ## reduce
 combines data from different processes into one item
+
+# opencv
+used to manipulate images in python scripts
